@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".StudentLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FoodStallID"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/FSOUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="StudentID"
+            android:inputType="number"
+            android:text="0001"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/FSOPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Password"
+            android:text="12345"
+            android:textSize="20dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnFSOLogin"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

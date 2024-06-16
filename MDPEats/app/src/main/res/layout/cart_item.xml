@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cart_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="start|center_vertical"
+                android:text=" Food 01"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cart_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="start|center_vertical"
+                android:text=" 30"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="italic"></TextView>
+
+        </LinearLayout>
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton work in progress-->
+<!--            android:id="@+id/fabDeleteCart"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:clickable="true"-->
+<!--            android:src="@android:drawable/ic_delete" />-->
+
+        <ImageView
+            android:id="@+id/cart_item_count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"></ImageView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

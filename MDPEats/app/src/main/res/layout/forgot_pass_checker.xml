@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardElevation="4dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="StudentID"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="34sp"
+            android:textColor="@color/black"
+            android:text="20303960"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/edtSecurityQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="What is your pet's name?"
+            android:inputType="text|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="24sp"
+            android:text="bubu"
+            ></EditText>
+
+
+
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

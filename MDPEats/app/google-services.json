@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1060837319912",
+    "firebase_url": "https://mdp-foodapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mdp-foodapp",
+    "storage_bucket": "mdp-foodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060837319912:android:66ed03d4ae1bd9164ad55d",
+        "android_client_info": {
+          "package_name": "com.project.mdpeats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpU4suhUvVBOigpgVkjkTHM4YARQJDaho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
